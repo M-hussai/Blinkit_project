@@ -325,14 +325,97 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     display: grid;
     justify-content: center;
     height: 500px;
+    
 }
 .fcontents{
-    width: 1280px;
-    background-color: rgb(139, 45, 45);
+    width: 1180px;
+    display: flex;
+    gap: 10px;
+
     
 }
 .lastline{
     width: 1280px;
-    background-color: blue;
+}
+.fca{
+    height: 390px;
+    width: 427px;
+}
+.fcb{
+    width:853px;
+    height: 390px;
+}
+.mainlist{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list1 ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+    padding:0px 10px 20px 0px;
+    color: gray;
+    font-family:Okra, Helvetica;
+}
+.fcb h3 span{
+    color: green;
+    font-family: Okra, Helvetica;
+}
+.fcb h3{
+    font-family: Okra, Helvetica;
+}
+.fca h3{
+    font-family: Okra, Helvetica;
 }
 
+.lastline{
+display: grid;
+justify-content: center;
+text-align: center;
+}
+
+.ls1{
+width: 1002px;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.popppp{
+    display: flex;
+    justify-content: space-around;
+}
+.lst1a img{
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+}
+.jug{
+    padding: 20px;
+    display: flex;
+}
+.bta{
+   
+    border: none;
+    background-color:transparent;
+    color: rgb(123, 118, 118);
+    margin:5px;
+    margin-top: -10px;
+    font-weight: bold;
+  
+}
+.popppp img{
+    margin-top: 18px;
+    height:40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.lst1a p{
+    margin-top: 33px;
+    color: rgb(110, 107, 107);
+}
+
+
+.paralast{
+    color: rgb(122, 117, 117);
+}
